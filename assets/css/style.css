@@ -864,15 +864,21 @@ section {
 --------------------------------------------------------------*/
 .pricing .row {
   padding-top: 40px;
+  justify-content: space-evenly;
 }
 
 .pricing .box {
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 30px;
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   background: #fff;
   text-align: center;
   position: relative;
+  border-radius: 10px;
+  box-sizing: initial;
 }
 
 .pricing .featured-badge {
@@ -928,18 +934,6 @@ section {
   padding-right: 4px;
 }
 
-.pricing ul .na {
-  color: #ccc;
-}
-
-.pricing ul .na i {
-  color: #ccc;
-}
-
-.pricing ul .na span {
-  text-decoration: line-through;
-}
-
 .pricing .get-started-btn {
   background: #213b52;
   display: inline-block;
@@ -991,6 +985,7 @@ section {
     margin: 0 auto 30px auto;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
