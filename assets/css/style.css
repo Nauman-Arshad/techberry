@@ -990,7 +990,7 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq .faq-item {
+/* .faq .faq-item {
   margin: 20px 0;
   padding: 20px 0;
   border-bottom: 1px solid #dde8f1;
@@ -1015,7 +1015,7 @@ section {
 
 .faq .faq-item p {
   font-size: 15px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
@@ -1295,100 +1295,94 @@ section {
 }
 
 /* ////////////////////////////////// */
-a:hover,
-a:focus {
-  text-decoration: none;
-  outline: none;
+
+.uv-accordinaton {
+  width: 100%;
+  margin: 0 auto;
+  display: table;
 }
 
-#accordion:before {
-  content: "";
-  width: 1px;
-  height: 80%;
-  background: #550527;
-  position: absolute;
-  top: 20px;
-  left: 24px;
-  bottom: 20px;
-}
-
-#accordion .panel {
-  border: none;
-  border-radius: 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-  margin: 0 0 12px 50px;
-  position: relative;
-}
-
-#accordion .panel:before {
-  content: "";
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(to bottom, #fdc134 0%, #ff816a 100%);
-  position: absolute;
-  top: 0;
-  left: -2px;
-}
-
-#accordion .panel-heading {
+.uv-accordinaton ul {
   padding: 0;
-  background: #fff;
-  position: relative;
+  margin: 20px 0;
+  color: #555;
 }
 
-#accordion .panel-heading:before {
-  content: "";
-  width: 15px;
-  height: 15px;
-  border-radius: 50px;
-  background: #fff;
-  border: 1px solid #550527;
-  position: absolute;
-  top: 50%;
-  left: -48px;
-  transform: translateY(-50%);
-}
-
-#accordion .panel-title a {
+.uv-accordinaton ul li {
+  list-style: none;
+  border-top: 1px solid #3e6f9b;
   display: block;
-  padding: 15px 55px 15px 30px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.uv-accordinaton ul li:first-child {
+  border-color: transparent;
+}
+
+
+.uv-accordinaton-list {
+  display: block;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.uv-accordinaton-list:hover {
+  color: #fdc134;
+}
+
+.uv-accordinaton-list h2 {
   font-size: 20px;
-  font-weight: 600;
-  color: #550527;
-  border: none;
-  margin: 0;
-  position: relative;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-#accordion .panel-title a:before,
-#accordion .panel-title a.collapsed:before {
-  content: "\f068";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  border-radius: 50%;
-  font-size: 15px;
-  font-weight: normal;
-  color: #688e26;
-  text-align: center;
-  border: 1px solid #688e26;
-  position: absolute;
-  top: 50%;
-  right: 25px;
-  transform: translateY(-50%);
-  transition: all 0.5s ease 0s;
+.uv-accordinaton-list h2.hilighted {
+  color: #fdc134;
 }
 
-#accordion .panel-title a.collapsed:before {
-  content: "\f067";
-}
 
-#accordion .panel-body {
-  padding: 0 30px 15px;
-  border: none;
+.uv-accordition-detail a {
+  text-decoration: none;
+  color: #C0392B;
+  border: 1px solid #C0392B;
+  padding: 6px 10px 5px;
   font-size: 14px;
-  color: #305275;
-  line-height: 28px;
+}
+
+.uv-accordition-detail {
+  margin: 10px 0 10px 0px;
+  display: none;
+  line-height: 22px;
+  padding-left: 20px;
+  border-left: 2px solid #fdc134;
+}
+
+.uv-accordition-detail p {
+  font-family: monospace;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.uv-right-arrow {
+  margin-top: 0;
+  margin-left: 20px;
+  width: 10px;
+  height: 100%;
+  float: right;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fdc134;
+}
+
+
+
+/* //////////////////////////////////// */
+
+.fqa___img {
+  width: 80%;
+  border-radius: 8px;
 }

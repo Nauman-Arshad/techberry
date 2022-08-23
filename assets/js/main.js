@@ -110,3 +110,22 @@
   });
 
 })(jQuery);
+
+$(".uv-accordinaton-list").on("click", function () {
+  $(this).closest("ul").find(".uv-accordition-detail").each(function () {
+    if ($(this).css("display") == 'block') {
+      $(this).slideUp(200); $(this).closest("li").find("h2").removeClass("hilighted");
+      $(this).closest("li").find(".uv-right-arrow").text("+");
+      return false;
+    }
+  });
+  $(this).next().slideToggle(200);
+  $(this).find(">:first-child");
+  if ($(this).find(">:first-child").text() == "+") {
+    $(this).find(">:first-child").text("-");
+    $(this).find("h2").addClass("hilighted");
+  } else {
+    $(this).find(">:first-child").text("+");
+    $(this).find("h2").removeClass("hilighted");
+  }
+});
