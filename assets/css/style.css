@@ -1338,6 +1338,7 @@ section {
   line-height: 30px;
   margin-top: 0;
   margin-bottom: 0;
+  font-family: system-ui;
 }
 
 .uv-accordinaton-list h2.hilighted {
@@ -1385,4 +1386,22 @@ section {
 .fqa___img {
   width: 80%;
   border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .fqa___img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .fqa___img {
+    width: 100%;
+  }
+}
+
+.fqa___question-title {
+  border-bottom: 2px solid #fdc134;
+  line-height: 50px;
+  font-family: 'Times New Roman', Times, serif;
 }
