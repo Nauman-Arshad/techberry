@@ -132,8 +132,12 @@ h6 {
   font-family: "Open Sans", sans-serif;
 }
 
+.nav-menu .active a {
+  border-bottom: 1px solid #fdc134;
+  color: #fff;
+}
+
 .nav-menu a:hover,
-.nav-menu .active>a,
 .nav-menu li:hover>a {
   color: #fff;
   text-decoration: none;
@@ -1404,4 +1408,13 @@ section {
   border-bottom: 2px solid #fdc134;
   line-height: 50px;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.advantages___h6 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+.advantages___h6:hover {
+  color: #fdc134;
 }
