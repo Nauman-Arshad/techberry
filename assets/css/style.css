@@ -368,8 +368,12 @@ h6 {
 #hero {
   width: 100%;
   padding: 0 0 0 0;
-  background: #213b52;
-  background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+  /* background: #213b52; */
+  /* background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
+  background-image: url("../img/pedro-lastra-Nyvq2juw4_o-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #hero h1 {
@@ -1455,6 +1459,11 @@ section {
     text-align: center;
     padding-bottom: 15px;
   }
+
+  #header {
+    padding: 6px 0;
+    height: 60px;
+  }
 }
 
 @media (min-width:801px) {
@@ -1466,4 +1475,25 @@ section {
     text-align: initial;
     padding-left: 32px;
   }
+
+  #hero {
+    height: 30rem;
+  }
+
+  #hero .tech__hero {
+    margin-top: 100px;
+  }
+}
+
+#hero .tech__hero h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+#hero .tech__hero h2 {
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
 }
