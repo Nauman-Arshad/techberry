@@ -1418,3 +1418,30 @@ section {
 .advantages___h6:hover {
   color: #fdc134;
 }
+
+.footer__contact {
+  text-align: center;
+  font-size: 20px;
+}
+
+.email__footer ul {
+  position: relative;
+  white-space: nowrap;
+  float: start;
+  padding-left: 0;
+}
+
+.email__footer ul li {
+  list-style: none;
+  display: flex;
+  line-height: 34px;
+  font-size: medium;
+  font-family: monospace;
+  border-bottom: .5px solid #fdc134;
+}
+
+.email__footer ul li:hover {
+  color: #fdc134;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
