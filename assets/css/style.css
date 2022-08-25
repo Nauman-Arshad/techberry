@@ -370,7 +370,7 @@ h6 {
   padding: 0 0 0 0;
   /* background-color: rgba(0, 0, 0, 0.5); */
   /* background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
-  background-image: url("../img/mike-van-den-bos-wLzUqPXEGu4-unsplash.jpg");
+  background-image: url("../img/wallpaperflare.com_wallpaper.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -736,6 +736,7 @@ section {
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -756,7 +757,10 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: 0.3s;
+  width: 100% !important;
+  height: auto;
 }
+
 
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 0;
@@ -1486,6 +1490,10 @@ section {
   #hero .tech__hero {
     margin-top: 100px;
   }
+
+  .about .image {
+    margin-top: 135px !important;
+  }
 }
 
 /* #hero .tech__hero h1 {
@@ -1496,13 +1504,13 @@ section {
 } */
 
 #hero .tech__hero h2 {
-  color: #213b52;
+  color: #fff;
   font-weight: 800;
-  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+  /* text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff; */
 }
 
 #hero .tech__hero h1 {
-  color: #202020;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: -2px;
 }
@@ -1512,7 +1520,7 @@ section {
   margin: 11px 0 17px 0;
   font-size: 35px;
   line-height: 50px;
-  color: #213b52;
-  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
-  letter-spacing: -2px;
+  color: #fff;
+  /* text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff; */
+  letter-spacing: 1px;
 }
