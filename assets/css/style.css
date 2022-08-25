@@ -369,8 +369,8 @@ h6 {
   width: 100%;
   padding: 0 0 0 0;
   /* background-color: rgba(0, 0, 0, 0.5); */
-  background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
-  background-image: url("../img/pexels-irina-iriser-1366957.jpg");
+  /* background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
+  background-image: url("../img/mike-van-den-bos-wLzUqPXEGu4-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -575,7 +575,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/about.jpeg") center center no-repeat;
   background-size: cover;
   width: 100%;
   height: 300px;
@@ -1488,15 +1488,31 @@ section {
   }
 }
 
-#hero .tech__hero h1 {
+/* #hero .tech__hero h1 {
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
   text-transform: capitalize;
   color: #fff;
-}
+} */
 
 #hero .tech__hero h2 {
-  color: #fff;
-  font-family: 'Courier New', Courier, monospace;
+  color: #213b52;
   font-weight: 800;
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+}
+
+#hero .tech__hero h1 {
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+#hero .tech__hero h1 span {
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 35px;
+  line-height: 50px;
+  color: #213b52;
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+  letter-spacing: -2px;
 }
