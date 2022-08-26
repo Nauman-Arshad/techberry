@@ -129,3 +129,25 @@ $(".uv-accordinaton-list").on("click", function () {
     $(this).find("h2").removeClass("hilighted");
   }
 });
+
+$(document).ready(function () {
+  $('input[name=colorCheckbox]:radio').change(function (e) {
+    let value = e.target.value.trim()
+
+    $('[class^="forms"]').css('display', 'none');
+
+    switch (value) {
+      case 'red':
+        $('.form-a').show()
+        break;
+      case 'green':
+        $('.form-b').show()
+        break;
+      case 'blue':
+        $('.form-c').show()
+        break;
+      default:
+        break;
+    }
+  })
+})
