@@ -70,7 +70,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 16px 0;
+  padding: 26px 0;
   background: #213b52;
 }
 
@@ -367,13 +367,10 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  padding: 0 0 0 0;
-  /* background-color: rgba(0, 0, 0, 0.5); */
-  /* background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
-  background-image: url("../img/wallpaperflare.com_wallpaper.jpg");
-  background-position: center;
+  background-image: url('../img/picls.jpg');
   background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ccc;
   background-size: cover;
 }
 
@@ -1505,9 +1502,13 @@ section {
 } */
 
 #hero .tech__hero h2 {
-  color: #fff;
+  color: #fdc134;
   font-weight: 800;
-  /* text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff; */
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+}
+
+#hero .tech__hero h2 span {
+  border-bottom: 1px solid #fdc134;
 }
 
 #hero .tech__hero h1 {
@@ -1522,7 +1523,7 @@ section {
   font-size: 35px;
   line-height: 50px;
   color: #fff;
-  /* text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff; */
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
   letter-spacing: 1px;
 }
 
@@ -1798,11 +1799,17 @@ label.error {
   text-decoration: none;
 }
 
-
-.HEAD_____s {
-  color: #CEF0D4;
+.top___head {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background-color: #fdc134;
   font-family: 'Times New Roman', Times, serif;
-  letter-spacing: -1px;
-  font-weight: normal;
-  text-shadow: 1px 1px 2px #082b34;
+  font-style: initial;
+  text-transform: capitalize;
+  word-spacing: 1.5px;
+  letter-spacing: .5px;
+  font-weight: bold;
+  font-size: 18px;
 }
