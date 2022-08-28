@@ -1405,6 +1405,15 @@ section {
   .fqa___img {
     width: 100%;
   }
+
+  .top___head {
+    font-size: 8px;
+  }
+
+  #header {
+    height: 50px !important;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -1811,5 +1820,4 @@ label.error {
   word-spacing: 1.5px;
   letter-spacing: .5px;
   font-weight: bold;
-  font-size: 18px;
 }
