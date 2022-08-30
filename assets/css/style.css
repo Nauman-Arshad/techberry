@@ -1963,5 +1963,18 @@ label.error {
   text-align: center;
   position: relative;
   border-radius: 10px;
+}
 
+.carousel-control-prev span {
+  background-color: #284864;
+  padding: 20px;
+  margin-left: -142px;
+  border-radius: 50%;
+}
+
+.carousel-control-next span {
+  background-color: #284864;
+  padding: 20px;
+  margin-right: -142px;
+  border-radius: 50%;
 }
