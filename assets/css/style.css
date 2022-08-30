@@ -66,11 +66,11 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
+  height: 70px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 26px 0;
+  padding: 15px 0;
   background: #213b52;
 }
 
@@ -243,7 +243,7 @@ h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 43px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -255,13 +255,19 @@ h6 {
   text-align: right;
 }
 
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .mobile-nav-toggle {
+    top: 66px !important;
+  }
+}
+
 .mobile-nav-toggle i {
   color: #fdc134;
 }
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
+  top: 80px;
   right: 15px;
   bottom: 15px;
   left: 15px;
@@ -367,9 +373,9 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  background-image: url('../img/picls.jpg');
+  background-image: url('../img/rednight.jpeg');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: bottom;
   background-color: #ccc;
   background-size: cover;
 }
@@ -1407,7 +1413,8 @@ section {
   }
 
   .top___head {
-    font-size: 8px;
+    padding: 10px;
+    font-size: 10px;
   }
 
   #header {
@@ -1419,6 +1426,11 @@ section {
 @media only screen and (min-width: 768px) {
   .fqa___img {
     width: 100%;
+  }
+
+  .top___head {
+    padding: 10px;
+    font-size: 20px;
   }
 }
 
@@ -1523,7 +1535,7 @@ section {
 #hero .tech__hero h2 {
   color: #fdc134;
   font-weight: 800;
-  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+  /* text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff; */
 }
 
 #hero .tech__hero h2 span {
@@ -1542,7 +1554,7 @@ section {
   font-size: 35px;
   line-height: 50px;
   color: #fff;
-  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+  /* text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff; */
   letter-spacing: 1px;
 }
 
@@ -1605,6 +1617,10 @@ section {
 
   .text {
     margin-top: 100px;
+  }
+
+  #hero .tech__hero h1 span {
+    font-size: 50px;
   }
 }
 
@@ -1819,9 +1835,8 @@ label.error {
 }
 
 .top___head {
-  position: absolute;
-  width: 100%;
   color: #fff;
+  margin: 0;
   text-align: center;
   background-color: #fdc134;
   font-family: 'Times New Roman', Times, serif;
@@ -1829,7 +1844,7 @@ label.error {
   text-transform: capitalize;
   word-spacing: 1.5px;
   letter-spacing: .5px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* .carousel {
