@@ -1492,7 +1492,7 @@ section {
   }
 
   .boxised {
-    max-width: 77% !important;
+    max-width: 90% !important;
     flex: none;
   }
 }
