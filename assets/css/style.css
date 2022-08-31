@@ -1836,7 +1836,7 @@ label.error {
 
 .top___head {
   color: #fff;
-  margin: 0;
+  margin-bottom: -6px;
   text-align: center;
   background-color: #fdc134;
   font-family: 'Times New Roman', Times, serif;
@@ -1963,18 +1963,4 @@ label.error {
   text-align: center;
   position: relative;
   border-radius: 10px;
-}
-
-.carousel-control-prev span {
-  background-color: #284864;
-  padding: 20px;
-  margin-left: -142px;
-  border-radius: 50%;
-}
-
-.carousel-control-next span {
-  background-color: #284864;
-  padding: 20px;
-  margin-right: -142px;
-  border-radius: 50%;
 }
