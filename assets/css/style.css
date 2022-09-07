@@ -89,7 +89,8 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  margin-top: -12px;
+  width: 70px;
 }
 
 /*--------------------------------------------------------------
@@ -1381,6 +1382,12 @@ section {
     height: 50px !important;
   }
 
+}
+
+@media only screen and (max-width: 768px) {
+  #header .logo img {
+    margin-top: -18px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
