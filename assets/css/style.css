@@ -89,8 +89,8 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  margin-top: -12px;
-  width: 70px;
+  margin-top: -26px;
+  width: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -1386,7 +1386,8 @@ section {
 
 @media only screen and (max-width: 768px) {
   #header .logo img {
-    margin-top: -18px;
+    width: 80px;
+    margin-top: -20px;
   }
 }
 
