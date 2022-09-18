@@ -151,3 +151,10 @@ $(document).ready(function () {
     }
   })
 })
+$(document).ready(function () {
+
+  $('#bot_open').popover('show');
+  $('.popover-title').click(function () {
+    $('#bot_open').popover('destroy');
+  });
+});
